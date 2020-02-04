@@ -31,7 +31,7 @@ CIFAR-FS
 
 For miniImageNet/CUB<br/>
 ```
-python train_wrn.py --dataset [miniImagenet/CUB] --method [S2M2_R/rotation] --model [WideResNet28_10/ResNet18]
+python train.py --dataset [miniImagenet/CUB] --method [S2M2_R/rotation] --model [WideResNet28_10/ResNet18]
 ```
 
 For CIFAR-FS<br/>
