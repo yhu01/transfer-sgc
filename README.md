@@ -46,7 +46,7 @@ python save_plk.py --dataset [miniImagenet/CUB] --method S2M2_R --model [WideRes
 
 **Fetching trained WideResNet_28_10 backbones and saved novel class features**
 
-Create an empty 'checkpoints' directory inside 'transfer-SGC'
+Create an empty 'checkpoints' directory inside 'transfer-sgc'
 
 The backbone and features for each dataset can be downloaded from this link: 'https://drive.google.com/drive/folders/1uhX_YldcpVBzK2giGn-qZEHGSd6cCeBy?usp=sharing
 ' 
