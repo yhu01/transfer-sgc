@@ -170,7 +170,7 @@ def test_sgc(out_dict, shot, n_ways, n_queries, k, ite=10000, epochs=1000, degre
     return acc_mean, acc_conf
 
 if __name__ == '__main__':
-    np.random.seed(10)
+    random.seed(10)
     n_ways=5
     n_queries=15
     save_dir = './checkpoints/miniImagenet/WideResNet28_10_S2M2_R/last' #wrn28_10
