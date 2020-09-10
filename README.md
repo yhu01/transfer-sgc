@@ -31,12 +31,12 @@ CIFAR-FS
 
 For miniImageNet/CUB<br/>
 ```
-python train.py --dataset [miniImagenet/CUB] --method [S2M2_R/rotation] --model [WideResNet28_10/ResNet18]
+python train.py --dataset [miniImagenet/CUB] --method [S2M2_R/rotation] --model [WideResNet28_10/ResNet18] --train_aug
 ```
 
 For CIFAR-FS<br/>
 ```
-python train_cifar.py --dataset cifar --method [S2M2_R/rotation] --model [WideResNet28_10/ResNet18]
+python train_cifar.py --dataset cifar --method [S2M2_R/rotation] --model [WideResNet28_10/ResNet18] --train_aug
 ```
 
 **Saving the novel class features of a trained backbone for the evaluation**
