@@ -48,7 +48,7 @@ python save_plk.py --dataset [miniImagenet/CUB] --method S2M2_R --model [WideRes
 
 Create an empty 'checkpoints' directory inside 'transfer-sgc'
 
-The backbone and features for each dataset can be downloaded from this link: 'https://drive.google.com/drive/folders/1uhX_YldcpVBzK2giGn-qZEHGSd6cCeBy?usp=sharing
+The backbone and features for each dataset can be downloaded from this link: 'https://drive.google.com/file/d/1wVJlDnU00Gurs0pw54ZMqf4XsWhJWHIh/view?usp=sharing
 ' 
 
 Untar the downloaded file and move it into 'checkpoints' folder.
